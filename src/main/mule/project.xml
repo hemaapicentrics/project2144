@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="projectFlow" doc:id="48905262-468a-4031-ab15-f5d85f28d059" >
 		<http:listener doc:name="Listener" doc:id="c8af594f-6142-413f-97f9-4c92f2cc0ecf" config-ref="HTTP_Listener_config" path="/project"/>
-		<set-payload value='#["deployment using maven commands and jenkins file"]' doc:name="Set Payload" doc:id="cd13f050-0aef-4256-9b22-47328b89b9a5" />
+		<set-payload value='#["deployment using maven commands and jenkins pipeline"]' doc:name="Set Payload" doc:id="cd13f050-0aef-4256-9b22-47328b89b9a5" />
 	</flow>
 </mule>
